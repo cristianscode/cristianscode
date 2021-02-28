@@ -1,0 +1,41 @@
+.header-text{
+    color: white;
+}
+
+.contact-item{
+    color: #849ED7;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.contact-link{
+    color: #849ED7;
+    text-decoration: none;
+}
+
+.form-label{
+    color: gray;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.btn-primary{
+    background-color: #fca311;
+    border: none;
+}
+
+.contact-text-container{
+    text-align: center;
+}
+
+@media screen and (min-width: 1200px){
+    .contact-text-container{
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .contact-text-container{
+        text-align: left;
+    }
+}
