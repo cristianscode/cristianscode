@@ -24,3 +24,7 @@ h2{
 a{
     border-bottom: 1px dotted white;
 }
+
+li{
+    margin-bottom: 5px;
+}
