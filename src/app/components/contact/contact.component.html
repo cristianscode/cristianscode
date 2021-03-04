@@ -22,7 +22,8 @@
                     <div class="contact-item">
                         <div class="row">
                             <div class="col-xl-4 col-md-12 col-4"><i class="fas fa-phone fa-2x"></i></div>
-                            <div class="col-xl-8 col-md-12 col-8 contact-text-container"><a class="contact-link" href="tel:5309336502">(530)
+                            <div class="col-xl-8 col-md-12 col-8 contact-text-container"><a class="contact-link"
+                                    href="tel:5309336502">(530)
                                     933-6502</a></div>
                         </div>
                     </div>
@@ -42,31 +43,38 @@
         <div class="col-xl-6 contact-form">
             <div class="card">
                 <div class="card-body">
-                    <div class="row">
-                        <div class="col-xl-12 col-md-5">
-                            <div class="form-group">
-                                <label class="form-label">Name</label>
-                                <input type="text" class="form-control">
+                    <form target="_blank" action="https://mailthis.to/cristianscode@gmail.com" method="POST"
+                        encType="multipart/form-data">
+                        <div class="row">
+                            <div class="col-xl-12 col-md-5">
+                                <div class="form-group">
+                                    <label class="form-label">Name</label>
+                                    <input type="text" class="form-control" name="name">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Email</label>
+                                    <input type="text" class="form-control" name="email">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Phone Number</label>
+                                    <input type="text" class="form-control" name="phoneNumber">
+                                </div>
+                                <input type="hidden" name="_subject" value="Contact form submitted">
+                                <input type="hidden" name="_honeypot" value="">
+                                <input type="hidden" name="_confirmation" value="">
                             </div>
-                            <div class="form-group">
-                                <label class="form-label">Email</label>
-                                <input type="text" class="form-control">
-                            </div>
-                            <div class="form-group">
-                                <label class="form-label">Phone Number</label>
-                                <input type="text" class="form-control">
+                            <div class="col-xl-12 col-md-7">
+                                <div class="form-group">
+                                    <label class="form-label">Message</label>
+                                    <textarea class="form-control" rows="8" style="resize: none;"
+                                        name="message"></textarea>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-xl-12 col-md-7">
-                            <div class="form-group">
-                                <label class="form-label">Message</label>
-                                <textarea class="form-control" rows="8" style="resize: none;"></textarea>
-                            </div>
+                        <div class="text-center">
+                            <input class="btn btn-primary" type="submit" value="Connect">
                         </div>
-                    </div>
-                    <div class="text-center">
-                        <button class="btn btn-primary">Submit</button>
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>
