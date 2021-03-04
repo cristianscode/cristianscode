@@ -1,0 +1,30 @@
+@import "../../app.component.css";
+
+.card{
+    background-color: #0F192E;
+    border-radius: 15px;
+    box-shadow:  17px 17px 34px #0c1526, -17px -17px 34px #121e36;
+    border: none;
+    padding: 15px;
+}
+
+h4{
+    color: #fca311;
+    border-bottom: 1px solid #fca311 !important;
+}
+
+h2{
+    color: #72efdd;
+    border-bottom: 1px solid #72efdd !important;
+    font-size: 2.5em;
+    text-align: center;
+    width: auto !important;
+}
+
+a{
+    border-bottom: 1px dotted white;
+}
+
+li{
+    margin-bottom: 5px;
+}

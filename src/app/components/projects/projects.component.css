@@ -1,0 +1,49 @@
+@import "../../app.component.css";
+.project-container{
+    margin-bottom: 15px;
+}
+
+.project-card{
+    background-color: transparent;
+}
+
+.project-image{
+    max-width: 100%;
+}
+
+.card-header{
+    background-color: transparent;
+    border: none;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #72efdd;
+    min-width: 100%;
+}
+.card-body{
+    background-color: #0F192E;
+    border-radius: 15px;
+    box-shadow:  17px 17px 34px #0c1526, -17px -17px 34px #121e36
+}
+
+.project-tech-item{
+    margin-right: 15px;
+    margin-left: 0px;
+    color: #fca311;
+    float: left;
+}
+
+.project-date{
+    color: lightgray;
+}
+
+.project-description{
+    color: #e9ecef;
+    font-size: 1.2em;
+}
+
+.fa-github, .fa-external-link-alt{
+    color: #72efdd;
+    cursor: pointer;
+}
